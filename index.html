@@ -13,14 +13,15 @@
 </head>
 <body>
     <div class="">       
-    <nav class="navbar navbar-expand-xxl border py-0 border-dark" aria-label="Seventh navbar example">
+    <nav class="navbar fixed-top navbar-expand-xxl bg-light bg-opacity-50 border py-0 border-top-0
+    border-bottom-0 border-end-0" aria-label="Seventh navbar example">
         <div class="container-fluid ">
-        <a class="navba row row-cols-lg-4 row-cols-md-3 row-cols-sm-3 row-cols-xl-3 row-cols-xxl-3 " href="#"><img src="11/01.jpeg" alt=""></a>
+        <a class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-3 row-cols-xl-3 row-cols-xxl-3" href="#">
+        <img src="11/01.jpeg" alt="" class="fixed"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleXxl" aria-controls="navbarsExampleXxl" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
-    
-        <div class="collapse navbar-collapse" id="navbarsExampleXxl">
+          <div class="collapse navbar-collapse" id="navbarsExampleXxl">
             <ul class="navbar-nav me-auto mb-2 mb-xl-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -40,9 +41,9 @@
                 </ul>
               </li>
             </ul>
-            <form role="search">
-              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-            </form>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
           </div>
         </div>
       </nav>
@@ -54,7 +55,7 @@
     </div>
     <div class="container-lg">
       <div class="row align-items-center">
-        <div class="display-4 text-black text-center fw-bolder">
+        <div class="display-4 text-black text-center fw-bold">
           Toyota Concept-I Series
         </div>
         <div class="small fst-italic text-center pt-3 ">
@@ -66,14 +67,31 @@
     <div class="container-fluid-lg pt-5">
       <div class="row">
         <div class="col-sm-8 ">
-          <img src="11/Annotation 20145.jpg" alt="" class="img-fluid ">
+          <img src="11/000101.jpg" alt="" class="img-fluid ">
         </div>
-        <div class="col">
-          <div class="fw-bold text-center fs-5 display-6">
-            The future has arrived
+        <div class="col-sm-4">
+            <div>
+            <img src="11/shokolat.jpg" alt="" class="img-fluid pe-5 ">
           </div>
           <div class="row small fst-italic pt-2">
             While we can't predict the future,we can inspire it.So what will our cars look like and how will they function?Will we drive them or will they drive us?That seems to be the question on everyone's mind.Well,we have an idea.Cars are for people who want to go to more places safely and efficiently
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid-lg pt-5">
+      <div class="row align-items-center ps-4">
+        <div class="col-sm">
+          <div class="pb-4 fw-bold h4">
+            Less of a machine. More of a pal.
+          </div>
+          <div class="small fst-italic">
+            Concept-i follows our belief that vehicles shouldn't start with technology-they should start,and end,with the experience of the people who use them.Therefore,Concept-i was built from the inside out,with a focus on making it immersive,energetic and,most importantly approachable.
+          </div>
+        </div>  
+        <div class="col-sm-7">
+          <div>
+            <img src="11/04.jpeg" alt="" class="img-fluid"> 
           </div>
         </div>
       </div>
