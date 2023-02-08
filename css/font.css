@@ -1,48 +1,48 @@
 @font-face {
   font-family: "RobotoMono";
-  src: url(../fonts/Roboto_Mono/static/RobotoMono-Light.ttf);
+  src: url(../font/RobotoMono-Black.ttf);
   font-style: normal;
   font-weight: 300;
 }
 @font-face {
   font-family: "RobotoMono";
-  src: url(../fonts/Roboto_Mono/static/RobotoMono-LightItalic.ttf);
+  src: url(../font/RobotoMono-BlackItalic.ttf);
   font-style: italic;
   font-weight: 300;
 }
 @font-face {
-  font-family: "Ubuntu";
-  src: url(../fonts/Roboto_Mono/static/RobotoMono-Regular.ttf);
+  font-family: "RobotoMono";
+  src: url(../font/RobotoMono-Regular.ttf);
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
-  font-family: "Ubuntu";
-  src: url(../fonts/Roboto_Mono/static/RobotoMono-Italic.ttf);
+  font-family: "RobotoMono";
+  src: url(../font/RobotoMono-Italic.ttf);
   font-style: italic;
   font-weight: 400;
 }
 @font-face {
-  font-family: "Ubuntu";
-  src: url(../fonts/Roboto_Mono/static/RobotoMono-Medium.ttf);
+  font-family: "RobotoMono";
+  src: url(../font/RobotoMono-Medium.ttf);
   font-style: normal;
   font-weight: 500;
 }
 @font-face {
-  font-family: "Ubuntu";
-  src: url(../fonts/Roboto_Mono/static/RobotoMono-MediumItalic.ttf);
+  font-family: "RobotoMono";
+  src: url(../font/RobotoMono-MediumItalic.ttf);
   font-style: italic;
   font-weight: 500;
 }
 @font-face {
-  font-family: "Ubuntu";
-  src: url(../fonts/Roboto_Mono/static/RobotoMono-Bold.ttf);
+  font-family: "RobotoMono";
+  src: url(../font/RobotoMono-Bold.ttf);
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
 }
 @font-face {
-  font-family: "Ubuntu";
-  src: url(../fonts/Roboto_Mono/static/RobotoMono-BoldItalic.ttf);
+  font-family: "RobotoMono";
+  src: url(../font/RobotoMono-BoldItalic.ttf);
   font-style: italic;
   font-weight: 700;
 }
